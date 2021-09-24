@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/textura-madera-en-negro-2802.jpg?s=large);
+}
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+}
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+.function{
+    width: 20%;
+    margin: auto;
+}
+.activity {
+    width: 80%;
+    margin: auto;
+}

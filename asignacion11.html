@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asignacion11</title>
+   <script src="validate.js"></script>  <!--Vinculación JavaScript -->
+   <link rel="stylesheet" href="asignacion11.css">  <!--Vinculación CSS -->
+</head>
+<body>
+
+<header>
+        <h1> Asignacion11</h1>
+ </header>
+
+ <main>
+             <div class="activity">
+                  <p>Crear un programa en lenguaje javascript, por medio de un archivo .html, que permita ingresar un nro. entero entre 1 y 7 (validar el ingreso por medio de una función denominada validaIngreso). Luego ese número ingresado y validado pasarlo como parámetro a otra función denomimada convierteDia, que recibirá el numero entre 1 y 7 y devolverá el nombre del día de la semana correspondiente (por ejemplo, si recibe 1 devolverá Lunes, si recibe 7 devolverá Domingo). Ambas funciones incluirlas en un único archivo externo .js.</p>
+              </div>
+  
+   <div class="function">
+
+    <!--         
+         Dentro de do está la sentencia a ejecutar por lo menos una vez.
+         Solicita el ingreso de un valor por teclado.
+         En while está la condición(functionValidate).
+         Mientras(while) la validación del número sea true realiza iteraciones,
+         pero como al validarlo dará false como resultado se ejecutará solo una vez.
+
+         -->
+       <script>                             
+           let number1 = 0 ;
+           do {number1 = parseInt(prompt( "Introduzca un numero entre 1 y 7 :")); }
+           while (validate (number1) );                 
+                alert("El dia de la semana para " + number1 + " es: " + converterDay(number1) );
+        </script>
+    </div>
+
+ </main>
+    
+        
+</body>
+</html>
